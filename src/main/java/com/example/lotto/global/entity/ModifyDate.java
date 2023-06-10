@@ -1,4 +1,4 @@
-package com.example.lottojpa.global.entity;
+package com.example.lotto.global.entity;
 
 import lombok.Getter;
 import org.springframework.data.annotation.LastModifiedDate;
