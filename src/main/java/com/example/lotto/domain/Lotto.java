@@ -9,11 +9,11 @@ import javax.persistence.*;
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @Getter
 @Setter
-public class Item {
+public class Lotto {
     @Id
     @GeneratedValue
-    @Column(name = "item_id")
-    private Long item_id;
+    @Column(name = "lotto_id")
+    private Long lotto_id;
     private int round;
     private int ball1;
     private int ball2;

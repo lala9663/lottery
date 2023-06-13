@@ -16,8 +16,8 @@ public class OrderItem {
     private Long order_item_id;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "item_id")
-    private Item item;
+    @JoinColumn(name = "lotto_id")
+    private Lotto lotto;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "order_id")
     private Order order;
