@@ -23,5 +23,5 @@ public class Order extends CreateDate {
     @JoinColumn(name = "member_id")
     private Member member;
     @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
-    private List<OrderItem> orderItems = new ArrayList<>();
+    private List<OrderLotto> orderItems = new ArrayList<>();
 }
