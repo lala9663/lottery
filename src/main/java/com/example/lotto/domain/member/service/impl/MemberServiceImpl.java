@@ -1,7 +1,7 @@
-package com.example.lotto.service;
+package com.example.lotto.domain.member.service.impl;
 
 import com.example.lotto.domain.Member;
-import com.example.lotto.repository.MemberRepository;
+import com.example.lotto.domain.member.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -11,7 +11,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @Service
 @Transactional(readOnly = true)
-public class MemberService {
+public class MemberServiceImpl {
     private final MemberRepository memberRepository;
 
     /**

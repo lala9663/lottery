@@ -1,4 +1,4 @@
-package com.example.lotto.repository;
+package com.example.lotto.domain.member.repository;
 
 import com.example.lotto.domain.Member;
 import lombok.RequiredArgsConstructor;

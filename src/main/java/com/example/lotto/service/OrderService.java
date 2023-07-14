@@ -3,7 +3,7 @@ package com.example.lotto.service;
 import com.example.lotto.domain.Lotto;
 import com.example.lotto.domain.Member;
 import com.example.lotto.repository.LottoRepository;
-import com.example.lotto.repository.MemberRepository;
+import com.example.lotto.domain.member.repository.MemberRepository;
 import com.example.lotto.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

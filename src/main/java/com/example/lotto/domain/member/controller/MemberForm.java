@@ -1,4 +1,4 @@
-package com.example.lotto.controller;
+package com.example.lotto.domain.member.controller;
 
 import lombok.Getter;
 import lombok.Setter;
